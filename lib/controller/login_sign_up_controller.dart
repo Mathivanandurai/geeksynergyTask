@@ -127,6 +127,8 @@ class LoginAndSignUpController extends GetxController {
   String? passwordValidator(String? text) {
     if (text == null) {
       return "Enter password";
+    } else if (text.isEmpty) {
+      return "Enter password";
     } else if (text.length < 4) {
       return "Password length greater than or equal to 4";
     }

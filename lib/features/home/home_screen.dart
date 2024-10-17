@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 15),
                 alignment: Alignment.centerLeft,
                 decoration: const BoxDecoration(color: Colors.blueAccent),
-                child: const Icon(Icons.menu),
+                child: const Icon(Icons.menu,color: Colors.white,),
               ),
             )),
         body: GetBuilder<HomeController>(

@@ -31,10 +31,6 @@ class _LoginScreenState extends State<LoginScreen> {
           key: formKey,
           child: Column(
             children: [
-              Text(
-                "Login",
-                style: GetTextStyleTask.styleS20w700Black,
-              ),
               const SizedBox(
                 height: 20,
               ),
@@ -72,7 +68,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     }
                   }
                 },
-                child: Text("Login", style: GetTextStyleTask.styleS20w700Black),
+                child: Text("Submit", style: GetTextStyleTask.styleS20w700Black),
               ),
               const SizedBox(height: 15),
               InkWell(

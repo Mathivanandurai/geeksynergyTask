@@ -115,7 +115,7 @@ class BaseClient {
 
         case DioExceptionType.badResponse:
           if (onError != null) {
-            onError(const Left("No Internet Connection"));
+            onError(Left("${error.response}"));
           }
 
         case DioExceptionType.cancel:

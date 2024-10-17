@@ -121,7 +121,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       }
                     },
                     child: Text(
-                      "Sign Up",
+                      "Submit",
                       style: GetTextStyleTask.styleS20w700Black,
                     ),
                   ),
