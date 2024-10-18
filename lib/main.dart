@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       navigatorKey: navigatorKey,
       title: 'Task',
       theme: themeData,
-      initialRoute: RouteNames.initial,
+      initialRoute: RouteNames.cart,
       getPages: RoutesPages.routes,
     );
   }

@@ -32,9 +32,10 @@ class CustomSnackBar {
 
 
   static showCustomToast({String? title, required String message,Color? color,Duration? duration}){
+    Get.closeAllSnackbars();
     Get.rawSnackbar(
       title: title,
-      duration: duration ?? const Duration(seconds: 3),
+      duration: duration ?? const Duration(seconds: 1),
       snackStyle: SnackStyle.GROUNDED,
       backgroundColor: color ?? Colors.black,
       onTap: (snack){

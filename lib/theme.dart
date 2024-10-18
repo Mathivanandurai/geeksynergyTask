@@ -14,6 +14,8 @@ ThemeData get themeData {
       thickness: 1,
       color: Colors.grey,
     ),
+    highlightColor: Colors.transparent,
+    splashFactory: NoSplash.splashFactory,
     colorScheme: ColorScheme.fromSeed(
       seedColor: Colors.blueAccent,
     ),
