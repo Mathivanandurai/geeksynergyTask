@@ -8,7 +8,7 @@ class CartController extends GetxController {
   var sizeList = shoeSizes;
   late ShoeModel selectedShoe;
   int sizeIndex = 0;
-  int? maxLine = 3;
+  int? maxLine = 2;
 
   updateShoe(ShoeModel index) {
     selectedShoe = index;
